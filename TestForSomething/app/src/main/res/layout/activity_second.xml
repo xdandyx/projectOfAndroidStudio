@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/button_browser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打开浏览器"/>
+    <Button
+        android:id="@+id/button_tel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#6030ad"
+        android:text="打开拨号"/>
+    <Button
+    android:id="@+id/button_alert"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#6030ad"
+    android:text="AlertDialog"
+    android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/button_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#6030ad"
+        android:text="ProgressDialog"
+        android:textAllCaps="false"/>
+</LinearLayout>
